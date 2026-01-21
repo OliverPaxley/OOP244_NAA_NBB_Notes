@@ -40,6 +40,9 @@ int main() {
 
 void average(const double marks[], size_t cnt) {
    double avg{}, sum{};
+   // alternative ;
+   // double avg = 0 ;
+   // double sum = 0 ;
    for (size_t i = 0; i < cnt; i++) {
       sum += marks[i];
    }
