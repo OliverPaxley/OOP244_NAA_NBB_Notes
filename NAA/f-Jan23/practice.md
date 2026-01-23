@@ -7,23 +7,23 @@ Write a function that:
 * **Receives two parameters:**
 
   * A C-string (`const char *`) — a null-terminated character array
-  * A **pointer passed by reference** (`char *&`) to receive the new string address
+  * A **pointer passed by reference** (`char *&`) to receive the new string reference
 
 * **Dynamically allocates memory** for a complete copy of the input string (**including the null terminator**)
 
-* Stores the address of the newly allocated copy in `*destination`
+* Stores the address of the newly allocated copy in `destination`
 
-* Returns an integer status code:
+* Returns a bool status code:
 
-  * `0` on success
-  * `-1` if memory allocation fails
+  * true on success
+  * false if memory allocation fails
 
 ---
 
 ### Function signature (use exactly this)
 
 ```c
-int duplicate_string(const char *source, char **destination);
+bool duplicate_string(const char *source, char *&destination);
 ```
 
 ---
@@ -45,17 +45,17 @@ int duplicate_string(const char *source, char **destination);
 
 ```c
 char *copy = NULL;
-int result;
+bool result;
 
 // Normal case
-result = duplicate_string("Hello", &copy);
-// → result == 0, copy points to a new heap-allocated "Hello\0"
+result = duplicate_string("Hello", copy);
+// → true, copy points to a new heap-allocated "Hello\0"
 
-result = duplicate_string(NULL, &copy);
-// → result == 0, copy == NULL
+result = duplicate_string(NULL, copy);
+// → fale, copy == NULL
 
-result = duplicate_string("", &copy);
-// → result == 0, copy points to a new heap-allocated empty string "\0"
+result = duplicate_string("", copy);
+// → true, copy points to a new heap-allocated empty string "\0"
 ```
 
 ---
