@@ -10,11 +10,12 @@ Since the feedbacks are given on each workshop you will not lose any marks on th
 |[CA](#ca) |  Custom header files must be included after library header files|
 |[CH](#ch) | C header file included in a C++ program |
 |[CM](#cm)  |  Unnecessary comments or Commented code left in the release version |
+|[COL](#col)  | GitHub collaboration invitation was not received |
 |[CRT](#crt) |  `#define _CRT_SECURE_NO_WARNINGS` should be the first line in your .cpp file and never in a header file|
 |[CS2](#cs2)| Statically allocated cStrings (char arrays) are unnecessarily too big |
 |[CSL](#csl)| Statically allocated cStrings need one extra character for null byte |
 |[CSG](#sgs) |  Header file compilation safeguards must surround everything in the header file|
-|[CSGM](#sgsm) |  Header file compilation safeguards ar missing|
+|[CSGM](#sgsm) |  Header file compilation safeguards are missing|
 |[CSGN](#bs) |  Bad header file safeguard define names| 
 [CTO](#cto)| Incorrect use of Conditional (Ternary) Operator (?:) |
 |[CT](#ct)|  Signature or citation missing |
@@ -1674,6 +1675,45 @@ Unnecessary or redundant logic used in code.
 ------------------------------------
 [Back to Feedback List](#list)
 ------------------------------------
+## COL
+### Your GitHub Collaboration Email was not received
+### The Fix
+
+[Follow the instructions in workshop zero](https://github.com/Seneca-244200/OOP-Workshops/tree/main/WS00)
+
+------------------------------------
+[Back to Feedback List](#list)
+------------------------------------
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-----------------
+
 <!-- 
 ## Code
 ### Feedback
@@ -1685,4 +1725,5 @@ Unnecessary or redundant logic used in code.
 ```
 ------------------------------------
 [Back to Feedback List](#list)
+------------------------------------
 -->
