@@ -3,9 +3,6 @@
 using namespace std;
 namespace seneca {
 
-
-
-
    void initialize(ValidatedInt& vi,int val, int minv, int maxv) {
       vi.m_minValue = minv;
       vi.m_maxValue = maxv;
