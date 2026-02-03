@@ -17,7 +17,7 @@ namespace seneca {
       m_maxValue = maxv;
       setValue(val);  // Reuse setValue for validation
    }   // depends on what you call a default m_value for this class based
-   // on your business logic
+      // on your business logic
    ValidatedInt::ValidatedInt(const char* titleParam) {
       initialize(titleParam , 0, -100, 100);
    }
