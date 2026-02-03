@@ -6,7 +6,7 @@ namespace seneca {
 
      //:: is called scope resolution, in english 
      // ValidatedInt's initialze
-// Member function: initializes the object, including dynamic allocation for m_title
+     // Member function: initializes the object, including dynamic allocation for m_title
    void ValidatedInt::initialize(const char* titleParam, int val, int minv, int maxv) {
       // Allocate and copy the m_title (dynamic C-string)
       m_title[0] = char(0);
@@ -30,7 +30,7 @@ namespace seneca {
    // Member function: validates and sets the m_value (clamps to [min, max])
    void ValidatedInt::setValue(int newVal) {
       if (newVal < m_minValue) {
-         m_value = m_minValue;
+         m_value = m_minValue;   
       }
       else if (newVal > m_maxValue) {
          m_value = m_maxValue;
