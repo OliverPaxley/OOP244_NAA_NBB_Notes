@@ -6,7 +6,7 @@ Important Note – Use the CSTR Module
 
 For this workshop you MUST NOT use:
 
-#include <cstring>
+`#include <cstring>`
 
 or any standard C-string library functions.
 
