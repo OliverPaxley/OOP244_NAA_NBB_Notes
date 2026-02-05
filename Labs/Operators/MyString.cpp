@@ -51,5 +51,8 @@ namespace seneca {
        (*this) += space;
        return *this;
     }
+    int MyString::length()const {
+       return strlen(m_data);
+    }
     // Implementation of MyString class goes here
 }
