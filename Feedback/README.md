@@ -54,7 +54,7 @@ Since the feedbacks are given on each workshop you will not lose any marks on th
 |[UN](#un) |  `using namespace` is never used where the namespace is being implemented |
 |[UNH](#unh) |  `using namespace` is never used in a header file |
 |[US](#us) | Improper use of the statement **"using"** |
-
+|[ZERO](#zero) | Workshop Zero is not done or GitHub repository is not setup correctly|
 
 # Coding Feedback
 
@@ -74,6 +74,21 @@ Since the feedbacks are given on each workshop you will not lose any marks on th
 [Back to Feedback List](#list)
 ------------------------------------
 -->
+## ZERO
+### Workshop zero is not done
+### Problematic code sample
+
+Your Workshop Zero is not complete. As a result, I will not be able to verify or monitor your progress in your other workshops, and they cannot be marked from this point forward.
+
+You must complete Workshop Zero and ensure your work progress is clearly demonstrated in your GitHub repository.
+
+### The Fix
+
+Complete [Workshop Zero](https://github.com/Seneca-244200/OOP-Workshops/tree/main/WS00)
+
+------------------------------------
+[Back to Feedback List](#list)
+------------------------------------
 ## IOSSTD
 ### Feedback
 You have used iostream; cin and cout and printf and scanf for console IO
