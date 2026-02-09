@@ -108,6 +108,7 @@ Commit and push your work regularly—especially at key “turning points,” su
 * when you finish a function or module
 * when you reach a working milestone
 * before trying a risky change
+* when you need help 
 * after fixing a bug
 * before submitting
 
