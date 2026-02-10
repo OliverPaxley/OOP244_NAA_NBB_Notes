@@ -54,7 +54,8 @@ Since the feedbacks are given on each workshop you will not lose any marks on th
 |[UN](#un) |  `using namespace` is never used where the namespace is being implemented |
 |[UNH](#unh) |  `using namespace` is never used in a header file |
 |[US](#us) | Improper use of the statement **"using"** |
-
+|[ZERO](#zero) | Workshop Zero is not done or GitHub repository is not setup correctly|
+|[ZUN](#zun) | GitHub Repository is created but not used|
 
 # Coding Feedback
 
@@ -74,6 +75,67 @@ Since the feedbacks are given on each workshop you will not lose any marks on th
 [Back to Feedback List](#list)
 ------------------------------------
 -->
+
+## ZUN
+### Feedback
+Repository is created but not used
+### Problem
+
+You created your GitHub repository, but you’re not actually using it as part of your development process for **OOP244**. Right now, your work is happening outside the repo (or only being uploaded at the end), which defeats the purpose of setting it up in Workshop 0.
+
+#### Why this matters
+
+The repository isn’t just a place to “store” your final files. It’s meant to help you:
+
+* **Track your progress over time** (so you can see what changed, when, and why)
+* **Recover from mistakes** (you can roll back to a working version if something breaks)
+* **Work more professionally** (Git is a core industry tool for software development)
+* **Let me review your development process** (your commit history shows how you approach problems, not just the final result)
+* **Get better feedback** (I can comment on your workflow, habits, and debugging approach—not only on the end product)
+
+When you don’t use Git consistently, you lose all of these benefits, and I can’t evaluate or support your coding process properly.
+
+### The fix
+
+Use your GitHub repository on your computer as the **main “home” folder** for all your OOP244 work, including:
+
+* practice code
+* workshops
+* and your project
+
+Commit and push your work regularly—especially at key “turning points,” such as:
+
+* when you finish a function or module
+* when you reach a working milestone
+* before trying a risky change
+* when you need help 
+* after fixing a bug
+* before submitting
+
+**Rule of thumb:** if you’d be upset to lose the last hour of work, it’s time to commit.
+
+If you start using Git this way, your workflow will be safer, more organized, and much closer to real-world software development.
+
+
+------------------------------------
+[Back to Feedback List](#list)
+------------------------------------
+## ZERO
+### Feedback  
+Workshop zero is not done
+### Problematic code sample
+
+Your Workshop Zero is not complete. As a result, I will not be able to verify or monitor your progress in your other workshops, and they cannot be marked from this point forward.
+
+You must complete Workshop Zero and ensure your work progress is clearly demonstrated in your GitHub repository.
+
+### The Fix
+
+Complete [Workshop Zero](https://github.com/Seneca-244200/OOP-Workshops/tree/main/WS00)
+
+------------------------------------
+[Back to Feedback List](#list)
+------------------------------------
 ## IOSSTD
 ### Feedback
 You have used iostream; cin and cout and printf and scanf for console IO
