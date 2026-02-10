@@ -31,7 +31,7 @@ namespace seneca {
       ValidatedInt& operator++(); // prefix
       ValidatedInt operator++(int); // postfix, the int is just flag to indicate postfix
       std::ostream& operator~()const;
-//      operator int()const;
+      //operator int()const;
       int operator[](size_t index)const;
       // IO
       std::ostream& display(std::ostream& ostr = std::cout)const; 
@@ -51,7 +51,5 @@ namespace seneca {
    // because it is a function that is not a memenber but it is designed
    // to work with specific classes
    // ValidatedInt multiply(const ValidatedInt& a, const ValidatedInt& b);
-
-
 }
 #endif 
