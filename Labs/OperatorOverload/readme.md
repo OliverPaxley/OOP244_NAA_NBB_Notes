@@ -46,7 +46,7 @@ Implement these conversion operators:
   Returns `m_value` **if valid**, otherwise returns `0`.
 
 * `operator const char*() const;`
-  Returns the title C-string **if valid**, otherwise returns an empty string (`""`).
+  Returns the title C-string ;
 
 ---
 

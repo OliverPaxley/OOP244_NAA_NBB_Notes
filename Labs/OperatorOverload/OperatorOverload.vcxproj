@@ -130,9 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bar.h" />
+    <ClInclude Include="cstr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="cstr.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
