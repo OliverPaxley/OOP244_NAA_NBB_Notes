@@ -118,8 +118,21 @@ Students must create:
 
 `draw()` output format (exact):
 
-* If valid: `"<title>, <value>"`
-* If safe empty: `"Empty Bar"`
+* If valid: 
+```
+title 
+===========================
+```
+* If safe empty: 
+```
+Empty Bar
+```
+#### Example 
+A Bar with the title "Count" and value of 20 is as drawn as follows <br />
+```
+Count
+====================
+```
 
 `read()` input format:
 
