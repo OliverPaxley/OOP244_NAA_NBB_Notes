@@ -14,7 +14,6 @@ namespace seneca {
       des[i + len] = char(0); // Null-terminate the result
       return des;
    }
-
    // Converts an uppercase ASCII character to lowercase.
    // If ch is not uppercase, returns it unchanged.
    char tolower(char ch) {
@@ -34,7 +33,6 @@ namespace seneca {
       des[i] = char(0);
       return des;
    }
-
    // Converts all characters in the input string `str` to lowercase in place.
    // Modifies the original string and returns the same pointer.
    char* tolower(char* str) {
@@ -43,8 +41,6 @@ namespace seneca {
       }
       return str;
    }
-
-
    // Compares two C-style strings lexicographically.
    // Returns 0 if equal, <0 if s1 < s2, >0 if s1 > s2.
    int strcmp(const char* s1, const char* s2) {
@@ -62,7 +58,6 @@ namespace seneca {
       }
       return s1[i] - s2[i];
    }
-
    // Copies src into des including null terminator.
    // Returns des. Assumes des has enough space.
    char* strcpy(char* des, const char* src) {
@@ -71,7 +66,6 @@ namespace seneca {
       des[i] = char(0);
       return des;
    }
-
    // Copies up to 'len' characters from src to des.
    // Always null-terminates des. Safer than std::strncpy.
    // Returns des.
@@ -83,7 +77,6 @@ namespace seneca {
       des[i] = 0; // Ensures null-termination
       return des;
    }
-
    // Copies up to 'len' characters from src to des (like std::strncpy).
    // May not null-terminate if src is longer than len.
    // Returns des.
@@ -96,14 +89,12 @@ namespace seneca {
       des[i] = src[i]; // Final char copied or null terminator
       return des;
    }
-
    // Returns the length of the C-style string str (excluding null).
    int strlen(const char* str) {
       int len{};
       for (len = 0;str &&  str[len]; len++);
       return len;
    }
-
    // Finds the first occurrence of toFind in str.
    // Returns pointer to the first match or nullptr if not found.
    const char* strstr(const char* str, const char* toFind) {
@@ -118,17 +109,12 @@ namespace seneca {
       }
       return faddress;
    }
-
    // Returns true if ch is an alphabetic character (A-Z or a-z).
    bool isalpha(char ch) {
       return (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z');
    }
-
    // Returns true if ch is a whitespace character.
    bool isspace(char ch) {
       return ch == ' ' || ch == '\t' || ch == '\n' || ch == '\v' || ch == '\f' || ch == '\r';
    }
-
-
-
 }
