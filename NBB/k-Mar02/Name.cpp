@@ -45,6 +45,7 @@ namespace seneca {
       return os;
    }
    std::istream& Name::read(std::istream& is) {
+      free();
       char buffer[512]{};
       is >> buffer;
       if (is) {
