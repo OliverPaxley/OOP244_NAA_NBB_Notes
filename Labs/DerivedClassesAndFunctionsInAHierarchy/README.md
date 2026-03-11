@@ -1,6 +1,13 @@
-# OOP244 Lab: Derived Classes and Functions in a Hierarchy
+﻿# OOP244 Lab: Derived Classes and Functions in a Hierarchy
 
 ## Vehicle and Airplane
+
+---
+> ⚠️ **Before You Begin**
+> You **must read and understand** the [Code Submission Regulations and Policies](../README.md) before starting this or any other delivarable code. This document outlines important rules about academic integrity, submission procedures, and expectations.
+> These policies apply to **all deliverable code** in OOP244. If you have already read it once, please ensure you continue to follow its guidelines throughout the course.
+---
+
 
 ## Learning Outcomes
 
@@ -356,6 +363,12 @@ Submit the following files:
 * `main.cpp`
 
 Make sure your work compiles and runs correctly with the provided files.
+
+Submisstion command:
+
+```bash
+~fardad.soleimanloo/submit 244/labs/inh
+```
 
 ---
 
