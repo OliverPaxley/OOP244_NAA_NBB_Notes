@@ -491,3 +491,8 @@ Submit:
 * `Printer.h`
 * `Printer.cpp`
 * `main.cpp`
+
+## Submission Command:
+```bash
+~fardad.soleimanloo/submit 244/labs/vir
+```
