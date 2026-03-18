@@ -9,7 +9,7 @@ namespace seneca {
    public:
       Animal(const char* name = "Nameless");
       virtual void act()const;// makes sure that the latest version of the function (act) will be called  
-      virtual void move()const;// makes move NOT upgradable
+      void move()const;// makes move NOT upgradable
       virtual void sound()const;
       virtual ~Animal();
    };

@@ -21,7 +21,7 @@ namespace seneca {
    void Animal::move() {
       cout << "Move like animal" << endl;
    }
-   Animal::~Animal() {
+   /*Animal::~Animal() {
       if(debug) cout << "Removing " << m_name << " the animal" << endl;
-   }
+   }*/
 }

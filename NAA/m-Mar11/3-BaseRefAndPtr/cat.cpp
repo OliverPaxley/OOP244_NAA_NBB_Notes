@@ -3,10 +3,8 @@ using namespace std;
 #include "Utils.h"
 #include "Cat.h"
 namespace seneca {
-   Cat::Cat(const char* thename, int numOfLives)
-//       :Animal{ thename }, m_numOfLives{ numOfLives } {
-     :Animal(thename), m_numOfLives(numOfLives){
-           if (seneca::debug) cout << "as a cat with " << m_numOfLives << " lives" << endl;
+   Cat::Cat(const char* thename, int numOfLives):Animal(thename), m_numOfLives(numOfLives){
+     if (seneca::debug) cout << "as a cat with " << m_numOfLives << " lives" << endl;
    }
    void Cat::act() {
       cout << "Act playful, " << name() << " the Cat" << endl;

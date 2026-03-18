@@ -11,6 +11,7 @@ namespace seneca {
       // makes sure that the latest version of the function (act) will be called
       virtual void move();
       virtual void sound() = 0; // pure virtual function
+  //    virtual ~Animal() = default; if there is no need for destructor, at least do this
       virtual ~Animal();
    };
 }
