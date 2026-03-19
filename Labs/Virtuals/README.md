@@ -494,5 +494,6 @@ Submit:
 
 ## Submission Command:
 ```bash
-~fardad.soleimanloo/submit 244/labs/vir
-```
+~fardad.soleimanloo/submit 244/labs/vir_???    
+```  
+??? replaced by naa or nbb, based on your section
