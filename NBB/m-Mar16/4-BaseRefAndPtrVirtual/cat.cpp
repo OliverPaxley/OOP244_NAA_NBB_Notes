@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "Utils.h"
-#include "Cat.h"
+#include "cat.h"
 namespace seneca {
    Cat::Cat(const char* thename, int numOfLives):Animal(thename), m_numOfLives(numOfLives){
  //     m_numOfLives = numOfLives;
