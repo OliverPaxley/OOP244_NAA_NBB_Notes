@@ -1,5 +1,5 @@
 #pragma once
-#include "Animal.h"
+#include "animal.h"
 namespace seneca {
    class Cat : public Animal {
       int m_numOfLives;

@@ -1,12 +1,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 using namespace std;
-#include "Animal.h"
+#include "animal.h"
 #include "Utils.h"
 namespace seneca {
    Animal::Animal(const char* name) {
       this->name(name);
-      if(debug) cout << "Creating " << this->name() << " the Animal" << endl;
+      if(debug) {
+         cout << "Creating " << this->name() << " the Animal" << endl;
+      }
    }
    const char* Animal::name()const {
       return m_name;
